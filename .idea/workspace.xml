@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5b0f534-05a3-427c-9f35-cb4b608877f5" name="Default" comment="" />
+    <list default="true" id="b5b0f534-05a3-427c-9f35-cb4b608877f5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dp.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stairs.js" afterPath="$PROJECT_DIR$/stairs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="dp.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,28 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="stairs.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="stairs.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stairs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="1386" selection-end="1386" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="731">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stairs.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stairs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="152" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.46331236" vertical-offset="374" max-vertical-offset="1326">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stairs.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stairs.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="18" selection-start="191" selection-end="191" vertical-scroll-proportion="-3.090909" vertical-offset="0" max-vertical-offset="1802">
+            <state line="15" column="35" selection-start="585" selection-end="585" vertical-scroll-proportion="0.22950819" vertical-offset="114" max-vertical-offset="688">
               <folding />
             </state>
           </provider>
@@ -57,21 +47,25 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/dp.js" />
         <option value="$PROJECT_DIR$/stairs.css" />
         <option value="$PROJECT_DIR$/stairs.html" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/stairs.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="699" />
+    <option name="width" value="1376" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -80,7 +74,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -99,6 +93,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -119,13 +114,12 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -139,6 +133,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -149,23 +151,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -204,14 +198,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="699" extended-state="6" />
+    <frame x="1912" y="-8" width="1376" height="728" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1310564" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.123226285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -219,11 +213,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -245,21 +239,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/stairs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stairs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="2640" selection-end="2640" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stairs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1224">
+        <state line="17" column="0" selection-start="775" selection-end="775" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="688">
           <folding />
         </state>
       </provider>
@@ -273,16 +253,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="86" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="63" column="0" selection-start="2640" selection-end="2640" vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.html">
@@ -294,16 +270,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="9" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="37" column="86" selection-start="1726" selection-end="1726" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1224">
+        <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1224" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stairs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stairs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="9" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="1173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stairs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.html">
@@ -315,16 +304,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="77" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1088">
-          <folding />
-        </state>
+        <state line="30" column="77" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="3" column="1" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.html">
@@ -334,23 +319,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stairs.css">
+    <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="191" selection-end="191" vertical-scroll-proportion="-3.090909" vertical-offset="0" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stairs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="1386" selection-end="1386" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.26385808" vertical-offset="0" max-vertical-offset="451" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="152" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.46331236" vertical-offset="374" max-vertical-offset="1326">
+        <state line="32" column="5" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.3137255" vertical-offset="336" max-vertical-offset="1392" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stairs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="191" selection-end="191" vertical-scroll-proportion="0.30828518" vertical-offset="0" max-vertical-offset="1696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stairs.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="585" selection-end="585" vertical-scroll-proportion="0.22950819" vertical-offset="114" max-vertical-offset="688">
           <folding />
         </state>
       </provider>

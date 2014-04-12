@@ -28,8 +28,8 @@ function Stairs(options) {
     this.table.append("<tr><td colspan=" + (options.height) + "></td><td class='upstair'><div class='circle'>" +
          options.price[options.height] +"</div>" + (options.height) + "</td></tr>")
     for(var i = options.height; i >= 2; i--) {
-        this.table.append("<tr><td colspan=" + (i - 1) + "></td><td class='upstair'><div class='circle'>" + options.price[i - 1] +
-            "</div>" + (i - 1) + "</td><td class='stair'><input tabindex='" + (tabId + i + 1) + "' class='answer'></td></tr>")
+        this.table.append("<tr><td colspan=" + (i - 1) + "></td>" + coint_element(options.price[i - 1]) +
+            (i - 1) + "</td><td class='stair'><input tabindex='" + (tabId + i + 1) + "' class='answer'></td></tr>")
     }
     this.table.append("<tr><td class='upstair'><img src='img/boy.gif'>0</td><td class='stair'><input tabindex='" + (tabId + 2) +"' class='answer'></td></tr>");
     this.table.append("<tr><td class='floor-stair'><input tabindex='" + (tabId + 1) + "' class='answer'></td><td align='right' colspan=" + (options.height)+
@@ -46,6 +46,15 @@ function Stairs(options) {
             'correctAnswer': options.answer
         });
     });
+
+    function coin_element(value) {
+        if(value) {
+            return "<div class='circle'>" + str(value) + "</div>";
+        } else {
+            return "";
+        }
+    }
+
 
     self.find('button.check').click(function () {$('body').trigger(
         {
