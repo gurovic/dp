@@ -22,13 +22,20 @@ function check(event) {
 
 
 
+function coin_element(value) {
+    if(value !== null) {
+        return "<div class='circle'>" + value + "</div>";
+    } else {
+        return "";
+    }
+}
+
 function Stairs(options) {
     var tabId = Math.round(Math.random()* 100 + 100) * 100
     var self = this.table = $('<table class="stairs" width="' + (options.height * 61 + 62) + '"></table>');
-    this.table.append("<tr><td colspan=" + (options.height) + "></td><td class='upstair'><div class='circle'>" +
-         options.price[options.height] +"</div>" + (options.height) + "</td></tr>")
+    this.table.append("<tr><td colspan=" + (options.height) + "></td><td class='upstair'>" + coin_element(options.price[options.height]) + "</div>" + (options.height) + "</td></tr>")
     for(var i = options.height; i >= 2; i--) {
-        this.table.append("<tr><td colspan=" + (i - 1) + "></td>" + coint_element(options.price[i - 1]) +
+        this.table.append("<tr><td colspan=" + (i - 1) + "></td><td class='upstair'>" + coin_element(options.price[i - 1]) +
             (i - 1) + "</td><td class='stair'><input tabindex='" + (tabId + i + 1) + "' class='answer'></td></tr>")
     }
     this.table.append("<tr><td class='upstair'><img src='img/boy.gif'>0</td><td class='stair'><input tabindex='" + (tabId + 2) +"' class='answer'></td></tr>");
@@ -47,13 +54,6 @@ function Stairs(options) {
         });
     });
 
-    function coin_element(value) {
-        if(value) {
-            return "<div class='circle'>" + str(value) + "</div>";
-        } else {
-            return "";
-        }
-    }
 
 
     self.find('button.check').click(function () {$('body').trigger(

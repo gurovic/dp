@@ -2,10 +2,11 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-        <script src="stairs.js"></script>
+    <script src="stairs.js"></script>
     <link rel="stylesheet" href="stairs.css" >
-    <title></title>
+    <title>Динамическое программирование</title>
 </head>
 <body><div class="page"><br>
 <table class="problem">
@@ -21,17 +22,26 @@
     <tr>
         <td class="statement">
             <p>Мальчик стоит перед лестницей из 7 ступенек. Он может делать шаг либо на следующую ступеньку, либо через
-            ступеньку, <em>либо через две ступеньки</em> (например, первый шаг он может сделать на ступеньку с номером 1, 2 или 3).
-            Наступая на каждую ступеньку, он должен заплатить указанное на ней число монет.</p>
+                ступеньку, <em>либо через две ступеньки</em> (например, первый шаг он может сделать на ступеньку с номером 1, 2 или 3).
+                Наступая на каждую ступеньку, он должен заплатить указанное на ней число монет.</p>
             <p>Определите стоимость самого дешевого пути до каждой из ступенек. Ответ запишите в поле под каждой ступенькой.</p>
         </td>
         <td><div id="stairs2" class="solution"></div><td>
+    </tr>
+    <tr>
+        <td class="statement">
+            <p>Мальчик стоит перед лестницей из 7 ступенек. Он может делать шаг либо на следующую ступеньку, либо через
+                ступеньку (например, первый шаг он может сделать на ступеньку с номером 1 или 2).</p>
+            <p>Определите, сколькими способами он может добраться до каждой ступеньки. Ответ запишите в поле под каждой ступенькой.</p>
+        </td>
+        <td><div id="stairs3" class="solution"></div><td>
     </tr>
 </table>
 <script>
         init_dp();
         var myStairs = new Stairs({id:'stairs', height:5, price:[0,1,2,2,3,2], answer:[0,1,2,3,5,5]});
         var myStairs2 = new Stairs({id:'stairs2', height:7, price:[0,1,2,2,3,2,4,1], answer:[0,1,2,2,4,4,6,5]});
+        var myStairs3 = new Stairs({id:'stairs3', height:7, price:[null, null, null, null, null, null, null, null], answer:[1,1,2,3,5,8,13,21]});
 </script>
 <br>
 </div></body>
