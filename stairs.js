@@ -33,7 +33,7 @@ function Stairs(options) {
     }
     this.table.append("<tr><td class='upstair'><img src='img/boy.gif'>0</td><td class='stair'><input tabindex='" + (tabId + 2) +"' class='answer'></td></tr>");
     this.table.append("<tr><td class='floor-stair'><input tabindex='" + (tabId + 1) + "' class='answer'></td><td align='right' colspan=" + (options.height)+
-        "><button tabindex='" + (tabId + 98) + "' class='check'>Check</button><button tabindex='"+ (tabId + 99) + "' class='answer'>Show answer</button></td></tr>");
+        "><button tabindex='" + (tabId + 98) + "' class='check'>Проверить</button><button tabindex='"+ (tabId + 99) + "' class='answer'>Правильный ответ</button></td></tr>");
     this.div = $("#" + options.id);
     this.div.append(this.table);
 
