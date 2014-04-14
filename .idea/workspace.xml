@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b0f534-05a3-427c-9f35-cb4b608877f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/a.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dp.iml" afterPath="$PROJECT_DIR$/.idea/dp.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stairs.css" afterPath="$PROJECT_DIR$/stairs.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stairs.html" afterPath="$PROJECT_DIR$/stairs.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stairs.js" afterPath="$PROJECT_DIR$/stairs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -31,7 +33,16 @@
       <file leaf-file-name="stairs.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stairs.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="40" selection-start="255" selection-end="255" vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="901">
+            <state line="65" column="153" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.67823344" vertical-offset="890" max-vertical-offset="1275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stairs.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stairs.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="12" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1870">
               <folding />
             </state>
           </provider>
@@ -40,7 +51,7 @@
       <file leaf-file-name="stairs.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stairs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+            <state line="11" column="56" selection-start="349" selection-end="349" vertical-scroll-proportion="-3.0727272" vertical-offset="18" max-vertical-offset="1955">
               <folding />
             </state>
           </provider>
@@ -60,9 +71,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/dp.js" />
-        <option value="$PROJECT_DIR$/stairs.css" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/a.html" />
+        <option value="$PROJECT_DIR$/stairs.css" />
         <option value="$PROJECT_DIR$/stairs.js" />
         <option value="$PROJECT_DIR$/stairs.html" />
       </list>
@@ -126,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -206,7 +217,11 @@
       <created>1397326844611</created>
       <updated>1397326844612</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="settings etc&#10;">
+      <created>1397331661978</created>
+      <updated>1397331661978</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -214,7 +229,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34622145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34622145" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -223,7 +238,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -246,7 +261,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="settings etc&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="settings etc&#10;&#10;" />
+    <MESSAGE value="settings etc&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="settings etc&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -355,13 +371,6 @@
         <state line="7" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.26385808" vertical-offset="0" max-vertical-offset="451" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stairs.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="18" selection-start="191" selection-end="191" vertical-scroll-proportion="0.30828518" vertical-offset="0" max-vertical-offset="1696">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/a.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.2922636" vertical-offset="0" max-vertical-offset="349">
@@ -369,16 +378,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stairs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="12" selection-start="765" selection-end="765" vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="1870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/stairs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1479">
+        <state line="11" column="56" selection-start="349" selection-end="349" vertical-scroll-proportion="-3.0727272" vertical-offset="18" max-vertical-offset="1955">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stairs.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="255" selection-end="255" vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="901">
+        <state line="65" column="153" selection-start="4051" selection-end="4051" vertical-scroll-proportion="0.67823344" vertical-offset="890" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>

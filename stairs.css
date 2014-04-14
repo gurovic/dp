@@ -47,6 +47,10 @@ td.stair {
     border-left: solid 1px;
 }
 
+td.removed {
+    background-color: red;
+}
+
 td.upstair {
     width:60pt;
     height:30pt;
